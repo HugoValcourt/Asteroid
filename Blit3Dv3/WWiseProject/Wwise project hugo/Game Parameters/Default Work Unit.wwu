@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{57ED0A0E-EE50-4431-A23E-2510F99E1EA9}" SchemaVersion="75">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{57ED0A0E-EE50-4431-A23E-2510F99E1EA9}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="shipx" ID="{1EDF69ED-5ECB-4380-9AEE-EDE162AE2731}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="Min" Type="Real64" Value="-1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="shiplifes" ID="{ADEC88FA-BC12-40C6-9001-4F5DAD4BA71E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="3"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

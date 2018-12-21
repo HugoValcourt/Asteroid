@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B5007FCD-95C9-4287-8A29-1AEC9C573286}" SchemaVersion="75">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{B5007FCD-95C9-4287-8A29-1AEC9C573286}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MainBank" ID="{559B6671-53FA-4B79-ABCC-23E49B3F5256}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Thrusting" ID="{FF938014-50B9-4177-BD2E-22223A65A831}" WorkUnitID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BackgroundMusic" ID="{9D4A0689-22C5-41D4-B5AD-79BF64E0D05F}" WorkUnitID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Shooting" ID="{87C45070-4232-43E2-BAB0-64ED9EC483A3}" WorkUnitID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Biping" ID="{FDF4D405-821A-4697-87A0-7F681CEE5182}" WorkUnitID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="GameOver" ID="{126AF698-9450-4A65-96FF-E87D43F56B5E}" WorkUnitID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LevelUp" ID="{3A5ACD1F-60D0-4A89-89E3-23B4C024760A}" WorkUnitID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AsteroidExplotion" ID="{145CEE66-FC66-4C94-A494-8B1084692826}" WorkUnitID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Explosion" ID="{8C79B72A-25A9-4D15-8A5A-39278F6CF668}" WorkUnitID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LifeUp" ID="{5BDEA9A2-C845-4FD9-8A41-EF59BB04DFB8}" WorkUnitID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

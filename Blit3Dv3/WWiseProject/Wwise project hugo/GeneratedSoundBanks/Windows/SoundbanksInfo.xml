@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>D:\Visual studio project\Asteroid_Hugo_V - Shot - Asteroids - Sound\Blit3Dv2\WWiseProject\Wwise project hugo\</ProjectRoot>
+		<SourceFilesRoot>D:\Visual studio project\Asteroid_Hugo_V - Shot - Asteroids - Sound\Blit3Dv2\WWiseProject\Wwise project hugo\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Visual studio project\Asteroid_Hugo_V - Shot - Asteroids - Sound\Blit3Dv2\WWiseProject\Wwise project hugo\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Visual studio project\Asteroid_Hugo_V - Shot - Asteroids - Sound\Blit3Dv2\WWiseProject\Wwise project hugo\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="440694100" Language="SFX">
+			<ShortName>BackgroundMusic.wav</ShortName>
+			<Path>SFX\BackgroundMusic_4B8CC0C5.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2880737896" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainBank</ObjectPath>
+			<ShortName>MainBank</ShortName>
+			<Path>MainBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="681442806" Name="AsteroidExplotion" ObjectPath="\Events\Default Work Unit\AsteroidExplotion"/>
+				<Event Id="626769978" Name="BackgroundMusic" ObjectPath="\Events\Default Work Unit\BackgroundMusic"/>
+				<Event Id="259723542" Name="Biping" ObjectPath="\Events\Default Work Unit\Biping"/>
+				<Event Id="13776098" Name="Explosion" ObjectPath="\Events\Default Work Unit\Explosion"/>
+				<Event Id="4158285989" Name="GameOver" ObjectPath="\Events\Default Work Unit\GameOver"/>
+				<Event Id="1994668398" Name="LevelUp" ObjectPath="\Events\Default Work Unit\LevelUp"/>
+				<Event Id="1291720944" Name="LifeUp" ObjectPath="\Events\Default Work Unit\LifeUp"/>
+				<Event Id="3373695666" Name="Shooting" ObjectPath="\Events\Default Work Unit\Shooting"/>
+				<Event Id="1608338529" Name="Thrusting" ObjectPath="\Events\Default Work Unit\Thrusting"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="440694100"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="73980390" Language="SFX">
+					<ShortName>GamerOverVoice.wav</ShortName>
+					<Path>SFX\GamerOverVoice_9E69E797.wem</Path>
+				</File>
+				<File Id="328748104" Language="SFX">
+					<ShortName>levelUp.wav</ShortName>
+					<Path>SFX\levelUp_9E69E797.wem</Path>
+				</File>
+				<File Id="356499977" Language="SFX">
+					<ShortName>Shoot\Laser_Shoot_2.wav</ShortName>
+					<Path>SFX\Shoot\Laser_Shoot_2_9E69E797.wem</Path>
+				</File>
+				<File Id="408222239" Language="SFX">
+					<ShortName>GameOverSound.wav</ShortName>
+					<Path>SFX\GameOverSound_9E69E797.wem</Path>
+				</File>
+				<File Id="440694100" Language="SFX">
+					<ShortName>BackgroundMusic.wav</ShortName>
+					<Path>SFX\BackgroundMusic_4B8CC0C5.wem</Path>
+					<PrefetchSize>17704</PrefetchSize>
+				</File>
+				<File Id="541791916" Language="SFX">
+					<ShortName>AsteroidExplotion.wav</ShortName>
+					<Path>SFX\AsteroidExplotion_9E69E797.wem</Path>
+				</File>
+				<File Id="644849423" Language="SFX">
+					<ShortName>RealThrustingLoop.wav</ShortName>
+					<Path>SFX\RealThrustingLoop_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="868570872" Language="SFX">
+					<ShortName>LifeUp.wav</ShortName>
+					<Path>SFX\LifeUp_9E69E797.wem</Path>
+				</File>
+				<File Id="992615545" Language="SFX">
+					<ShortName>BipingLoop.wav</ShortName>
+					<Path>SFX\BipingLoop_9E69E797.wem</Path>
+				</File>
+				<File Id="1023752908" Language="SFX">
+					<ShortName>Explosion.wav</ShortName>
+					<Path>SFX\Explosion_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

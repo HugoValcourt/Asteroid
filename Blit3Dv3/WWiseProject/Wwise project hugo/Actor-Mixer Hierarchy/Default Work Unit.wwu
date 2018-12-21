@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B82BA114-9642-4416-BB33-B4B0B08BCC82}" SchemaVersion="75">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{B82BA114-9642-4416-BB33-B4B0B08BCC82}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Laser_Shoot_2" ID="{5F99381D-51C5-4D9B-A232-9CB6163C9C21}" ShortID="252765948" Type="SoundFX">
+					<PropertyList>
+						<Property Name="EnablePanner" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E244EEF-AF49-4E44-8525-B1A373FFC194}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4C2D42C6-60EB-4074-9292-901C94AE71E5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Laser_Shoot_2" ID="{D3EA1C75-C9D7-4DF5-9E06-F66FA84E448F}" ShortID="356499977">
+							<Language>SFX</Language>
+							<AudioFile>Shoot\Laser_Shoot_2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{F45F3CE8-EC8C-4952-A8AD-A777AE25D06A}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{B3DE01E8-7368-4D00-AB61-CF3C5DDC5489}" ShortID="982052280">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="shipx" ID="{1EDF69ED-5ECB-4380-9AEE-EDE162AE2731}" WorkUnitID="{57ED0A0E-EE50-4431-A23E-2510F99E1EA9}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{4A276613-5A47-40AD-9E64-4B422548C253}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-1</XPos>
+														<YPos>-100</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>100</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Laser_Shoot_2" ID="{D3EA1C75-C9D7-4DF5-9E06-F66FA84E448F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Explosion" ID="{00A5EE87-1C67-4E46-AD25-C23453592222}" ShortID="340480700" Type="SoundFX">
+					<PropertyList>
+						<Property Name="EnablePanner" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-1110</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{1A039481-2B80-40CD-8FB1-DB4F4EFA8390}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="300"/>
+											<Property Name="Min" Type="Real64" Value="-300"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E244EEF-AF49-4E44-8525-B1A373FFC194}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4C2D42C6-60EB-4074-9292-901C94AE71E5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Explosion" ID="{8C877CBB-3429-471A-8922-68B2B239DE9E}" ShortID="1023752908">
+							<Language>SFX</Language>
+							<AudioFile>Explosion.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{5ED37306-C517-470E-85CE-549ACD80F87A}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{48807637-A1C0-434B-B4D4-9202895A9DF4}" ShortID="801396541">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="shipx" ID="{1EDF69ED-5ECB-4380-9AEE-EDE162AE2731}" WorkUnitID="{57ED0A0E-EE50-4431-A23E-2510F99E1EA9}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5A9C9F50-FFBB-4704-BDF4-E25B95980DA5}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-1</XPos>
+														<YPos>-100</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>100</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Explosion" ID="{8C877CBB-3429-471A-8922-68B2B239DE9E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LevelUp" ID="{54324C92-F6C3-44EB-B0DC-BBDB7AF4DE62}" ShortID="1069853472" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E244EEF-AF49-4E44-8525-B1A373FFC194}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4C2D42C6-60EB-4074-9292-901C94AE71E5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="levelUp" ID="{B81979FD-11D7-46F5-AF21-9CB57BAB1085}" ShortID="328748104">
+							<Language>SFX</Language>
+							<AudioFile>levelUp.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="levelUp" ID="{B81979FD-11D7-46F5-AF21-9CB57BAB1085}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LifeUp" ID="{38F01ECF-C84B-48ED-BD71-FBFBFAE2D423}" ShortID="9301957" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E244EEF-AF49-4E44-8525-B1A373FFC194}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4C2D42C6-60EB-4074-9292-901C94AE71E5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LifeUp" ID="{14873161-E323-4A53-834F-C3152CA7A2F0}" ShortID="868570872">
+							<Language>SFX</Language>
+							<AudioFile>LifeUp.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LifeUp" ID="{14873161-E323-4A53-834F-C3152CA7A2F0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Thrusting" ID="{DD984551-114E-4428-84EF-4AFBCCFA0076}" ShortID="96876235" Type="SoundFX">
+					<PropertyList>
+						<Property Name="EnablePanner" Type="bool" Value="True"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E244EEF-AF49-4E44-8525-B1A373FFC194}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4C2D42C6-60EB-4074-9292-901C94AE71E5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RealThrustingLoop" ID="{D49CD8D0-A0CD-4A09-B8BA-CD096D3B0566}" ShortID="644849423">
+							<Language>SFX</Language>
+							<AudioFile>RealThrustingLoop.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{EE9393E6-7351-4DCC-9A74-3FD60FF4B63E}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{BBBB5EA3-617B-4F05-BE3D-DD75FD6F0977}" ShortID="871339252">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="shipx" ID="{1EDF69ED-5ECB-4380-9AEE-EDE162AE2731}" WorkUnitID="{57ED0A0E-EE50-4431-A23E-2510F99E1EA9}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{25137269-A8A8-4DDC-A9AB-16CC0B697DB2}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-1</XPos>
+														<YPos>-100</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>100</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="RealThrustingLoop" ID="{D49CD8D0-A0CD-4A09-B8BA-CD096D3B0566}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="GamerOverVoice" ID="{088A77E7-7197-4CFA-97D8-A462D7778D88}" ShortID="456074514" Type="SoundFX">
+					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E244EEF-AF49-4E44-8525-B1A373FFC194}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4C2D42C6-60EB-4074-9292-901C94AE71E5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GamerOverVoice" ID="{A67FF15C-E5B9-42E8-AD10-3FB7757B339A}" ShortID="73980390">
+							<Language>SFX</Language>
+							<AudioFile>GamerOverVoice.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GamerOverVoice" ID="{A67FF15C-E5B9-42E8-AD10-3FB7757B339A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="GameOverSound" ID="{287C8A45-D5BF-45D2-A9E6-79905D881956}" ShortID="368455513" Type="SoundFX">
+					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E244EEF-AF49-4E44-8525-B1A373FFC194}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4C2D42C6-60EB-4074-9292-901C94AE71E5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GameOverSound" ID="{A3D24158-B04A-46C2-9F09-0B830B7086AE}" ShortID="408222239">
+							<Language>SFX</Language>
+							<AudioFile>GameOverSound.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GameOverSound" ID="{A3D24158-B04A-46C2-9F09-0B830B7086AE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="BackgroundMusic" ID="{0FC32113-E044-40F1-8531-D53BA39E19C4}" ShortID="898437699" Type="SoundFX">
+					<PropertyList>
+						<Property Name="EnablePanner" Type="bool" Value="True"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsZeroLantency" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{911F78A8-14F7-44FD-AE42-408866CFD8B0}" ShortID="259577727">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="shiplifes" ID="{ADEC88FA-BC12-40C6-9001-4F5DAD4BA71E}" WorkUnitID="{57ED0A0E-EE50-4431-A23E-2510F99E1EA9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{2BD26CDC-5DC3-404E-BC1C-0255AFE8D1C1}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.75079</XPos>
+												<YPos>0.69584</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0.99795</XPos>
+												<YPos>6.22499</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.49742</XPos>
+												<YPos>6.40696</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.00419</XPos>
+												<YPos>0.73743</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3</XPos>
+												<YPos>0.62817</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E244EEF-AF49-4E44-8525-B1A373FFC194}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4C2D42C6-60EB-4074-9292-901C94AE71E5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BackgroundMusic" ID="{4E307D08-DDCB-4510-90C9-84698C36FEC4}" ShortID="440694100">
+							<Language>SFX</Language>
+							<AudioFile>BackgroundMusic.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{EF874069-A86B-4098-9064-09684CFC24BB}"/>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="BackgroundMusic" ID="{4E307D08-DDCB-4510-90C9-84698C36FEC4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AsteroidExplotion" ID="{D6DE8EEB-FBDD-4F32-A564-6B8F8AE5A412}" ShortID="861230492" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E244EEF-AF49-4E44-8525-B1A373FFC194}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4C2D42C6-60EB-4074-9292-901C94AE71E5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AsteroidExplotion" ID="{4F8FE0B4-F4F0-4173-8A67-E9CEB520A288}" ShortID="541791916">
+							<Language>SFX</Language>
+							<AudioFile>AsteroidExplotion.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AsteroidExplotion" ID="{4F8FE0B4-F4F0-4173-8A67-E9CEB520A288}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Biping" ID="{9B70B437-EB7E-408F-8E72-AD72116DC131}" ShortID="1052047729" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E244EEF-AF49-4E44-8525-B1A373FFC194}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4C2D42C6-60EB-4074-9292-901C94AE71E5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BipingLoop" ID="{2C5A8736-7087-46A0-B43D-3BC6459C37CB}" ShortID="992615545">
+							<Language>SFX</Language>
+							<AudioFile>BipingLoop.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BipingLoop" ID="{2C5A8736-7087-46A0-B43D-3BC6459C37CB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

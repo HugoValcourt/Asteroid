@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2110808665	Roar			\Default Work Unit\Roar	
+	2726606664	Drums			\Default Work Unit\Drums	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	202020640	jaguar	C:\Prog\AUDIO_Wwise\Audio_template_Blit3Dv2\Blit3Dv2\WWiseProject\ExampleProject\.cache\Windows\SFX\jaguar_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\jaguar		77888
+	248739299	drumloop	C:\Prog\AUDIO_Wwise\Audio_template_Blit3Dv2\Blit3Dv2\WWiseProject\ExampleProject\.cache\Windows\SFX\drumloop_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\drumloop		84444
+

@@ -1,0 +1,30 @@
+Event	ID	Name			Wwise Object Path	Notes
+	13776098	Explosion			\Default Work Unit\Explosion	
+	259723542	Biping			\Default Work Unit\Biping	
+	626769978	BackgroundMusic			\Default Work Unit\BackgroundMusic	
+	681442806	AsteroidExplotion			\Default Work Unit\AsteroidExplotion	
+	1291720944	LifeUp			\Default Work Unit\LifeUp	
+	1608338529	Thrusting			\Default Work Unit\Thrusting	
+	1994668398	LevelUp			\Default Work Unit\LevelUp	
+	3373695666	Shooting			\Default Work Unit\Shooting	
+	4158285989	GameOver			\Default Work Unit\GameOver	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2753384925	shipx			\Default Work Unit\shipx	
+	4030701516	shiplifes			\Default Work Unit\shiplifes	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	73980390	GamerOverVoice	D:\Visual studio project\Asteroid_Hugo_V - Shot - Asteroids - Sound\Blit3Dv2\WWiseProject\Wwise project hugo\.cache\Windows\SFX\GamerOverVoice_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GamerOverVoice		96832
+	328748104	LevelUp	D:\Visual studio project\Asteroid_Hugo_V - Shot - Asteroids - Sound\Blit3Dv2\WWiseProject\Wwise project hugo\.cache\Windows\SFX\levelUp_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\LevelUp		50006
+	356499977	Laser_Shoot_2	D:\Visual studio project\Asteroid_Hugo_V - Shot - Asteroids - Sound\Blit3Dv2\WWiseProject\Wwise project hugo\.cache\Windows\SFX\Shoot\Laser_Shoot_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Laser_Shoot_2		38434
+	408222239	GameOverSound	D:\Visual studio project\Asteroid_Hugo_V - Shot - Asteroids - Sound\Blit3Dv2\WWiseProject\Wwise project hugo\.cache\Windows\SFX\GameOverSound_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GameOverSound		234616
+	440694100	BackgroundMusic	D:\Visual studio project\Asteroid_Hugo_V - Shot - Asteroids - Sound\Blit3Dv2\WWiseProject\Wwise project hugo\.cache\Windows\SFX\BackgroundMusic_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\BackgroundMusic		17704
+	541791916	AsteroidExplotion	D:\Visual studio project\Asteroid_Hugo_V - Shot - Asteroids - Sound\Blit3Dv2\WWiseProject\Wwise project hugo\.cache\Windows\SFX\AsteroidExplotion_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\AsteroidExplotion		49080
+	644849423	Thrusting	D:\Visual studio project\Asteroid_Hugo_V - Shot - Asteroids - Sound\Blit3Dv2\WWiseProject\Wwise project hugo\.cache\Windows\SFX\RealThrustingLoop_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Thrusting		53506
+	868570872	LifeUp	D:\Visual studio project\Asteroid_Hugo_V - Shot - Asteroids - Sound\Blit3Dv2\WWiseProject\Wwise project hugo\.cache\Windows\SFX\LifeUp_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\LifeUp		18934
+	992615545	Biping	D:\Visual studio project\Asteroid_Hugo_V - Shot - Asteroids - Sound\Blit3Dv2\WWiseProject\Wwise project hugo\.cache\Windows\SFX\BipingLoop_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Biping		30538
+	1023752908	Explosion	D:\Visual studio project\Asteroid_Hugo_V - Shot - Asteroids - Sound\Blit3Dv2\WWiseProject\Wwise project hugo\.cache\Windows\SFX\Explosion_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Explosion		26474
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	440694100	BackgroundMusic	D:\Visual studio project\Asteroid_Hugo_V - Shot - Asteroids - Sound\Blit3Dv2\WWiseProject\Wwise project hugo\.cache\Windows\SFX\BackgroundMusic_4B8CC0C5.wem	440694100.wem	\Actor-Mixer Hierarchy\Default Work Unit\BackgroundMusic	
+
